@@ -1,0 +1,32 @@
+name: Build ViCast
+
+# Trigger workflow on push or pull request to main branch
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    name: Build ViCast (Release x64)
+    runs-on: windows-latest
+
+    steps:
+      # 1️⃣ Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # 2️⃣ Setup MSVC environment
+      - name: Setup MSVC (x64)
+        uses: ilammy/msvc-dev-cmd@v1
+        with:
+          arch: x64
+
+      # 3️⃣ Restore NuGet packages if needed
+      - name: Restore NuGet packages
+        run: nuget restore ViCast.sln
+
+      # 4️⃣ Build the solution in Release configuration
+      - name: Build ViCast
+        run: msbuild ViCast.sln /p:Configuration=Release /p:Platform=x64 /m
