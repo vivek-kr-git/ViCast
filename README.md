@@ -90,7 +90,7 @@ Priority Order:
 2. NDI Primary  
 3. NDI Backup
 
-![ViCast Failover State Machine](docs/vicast-failover.svg)
+![ViCast Failover State Machine](Docs/vicast-failover.svg)
 
 ---
 
