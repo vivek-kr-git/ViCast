@@ -2,10 +2,10 @@
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/vivek.kr)
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/yourrepo/vicast/build.yml?branch=main&style=flat-square)](https://github.com/vivek-kr-git/ViCast) 
-[![License](https://img.shields.io/github/license/yourrepo/vicast?style=flat-square)](https://github.com/vivek-kr-git/ViCast/blob/main/LICENSE) 
-[![NDI SDK](https://img.shields.io/badge/NDI-SDK-blue?style=flat-square)](https://www.ndi.tv/sdk/) 
-[![DeckLink SDK](https://img.shields.io/badge/DeckLink-SDK-black?style=flat-square)](https://www.blackmagicdesign.com/support/family/capture-and-playback) 
+[![Build Status](https://img.shields.io/github/actions/workflow/status/vivek-kr-git/ViCast/build.yml?branch=main&style=flat-square)](https://github.com/vivek-kr-git/ViCast)  
+[![License](https://img.shields.io/github/license/vivek-kr-git/ViCast?style=flat-square)](https://github.com/vivek-kr-git/ViCast/blob/main/LICENSE)  
+[![NDI SDK](https://img.shields.io/badge/NDI-SDK-blue?style=flat-square)](https://www.ndi.tv/sdk/)  
+[![DeckLink SDK](https://img.shields.io/badge/DeckLink-SDK-black?style=flat-square)](https://www.blackmagicdesign.com/support/family/capture-and-playback)  
 [![C++](https://img.shields.io/badge/C++-17-blue?style=flat-square)](https://isocpp.org/)
 
 ViCast is a high-performance C++ broadcast gateway for real-time video routing between **NDI® network video**, **GPU desktop capture**, and **SDI broadcast hardware**.  
