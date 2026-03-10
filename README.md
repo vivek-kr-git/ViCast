@@ -272,6 +272,7 @@ Priority Table:
 ## 1⃣ Clone the repository 
 ```bash
 git clone https://github.com/vivek-kr-git/ViCast
+```
 
 ## 2️⃣ Install Dependencies
 
