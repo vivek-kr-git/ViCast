@@ -337,8 +337,8 @@ If you like **ViCast-NIP** and want to support development, you can buy me a cof
 
 ## 📸 Demo
 
-![ViCast Demo](docs/ViCast-Demo.png)
-![ViCast Demo](docs/ViCast-Demo1.png)
+![ViCast Demo Image 1](docs/ViCast-Demo.png)
+![ViCast Demo Image 2](docs/ViCast-Demo1.png)
 
 *Example of ViCast in action – desktop capture routed to NDI and SDI output.*
 
