@@ -1,0 +1,36 @@
+{
+  "enableDesktopCapture": false,
+  "enableNdiInput": true,
+
+  "ndiInputPrimary": "Primary (NDI)",
+  "ndiInputBackup": "Backup (NDI)",
+  "flapThreshold": 5,
+
+  "ndiOutputFill": "ViCast Fill",
+  "ndiOutputKey": "ViCast Key",
+  "ndiOutputEmbedded": "ViCast NDI",
+
+  "outputWidth": 1920,
+  "outputHeight": 1080,
+  "outputFpsN": 25,
+  "outputFpsD": 1,
+
+  "forceProgressive": true,
+  "forceInterlaced": false,
+
+  "ndiHighestQuality": true,
+  "clockVideo": true,
+  "clockAudio": true,
+  "pixelFormat": "v210",
+
+  "enableDeckLink": false,
+  "decklinkDevices": [
+    {
+      "name": "DeckLink 8K Pro",
+      "outputMode": "1080p25",
+      "keyOutput": true
+    }
+  ],
+
+  "verboseLogging": true
+}
