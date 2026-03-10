@@ -255,7 +255,8 @@ Priority Table:
     }
   ],
   "verboseLogging": true
-}```
+}
+```json
 
 ## Key Parameters
 
