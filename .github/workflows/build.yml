@@ -1,4 +1,4 @@
-name: Build ViCast
+name: Build ViCast-NIP
 
 on:
   push:
